@@ -348,6 +348,11 @@ D (digital) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GNDISO
+D isolated ground power-flag symbol
+K Power Flag Symbol Isolated
+$ENDCMP
+#
 $CMP GNDPWR
 D (power) ground power-flag symbol
 K Power Flag Symbol
