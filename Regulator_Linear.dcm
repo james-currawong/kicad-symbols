@@ -3072,6 +3072,48 @@ K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
+$CMP LT1962
+D 300mA, Adjustable, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-1.5
+D 1.5V, 300mA, Low Noise, Micropower LDO Regulator
+K LDO 1.5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf, MSOP-8
+$ENDCMP
+#
+$CMP LT1962-1.8
+D 1.8V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 1.8V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-2.5
+D 2.5V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 2.5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-3
+D 3.0V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 3V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-3.3
+D 3.3V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 3.3V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-5
+D 5.0V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
 $CMP LT1964-5
 D MICROPOWER 200mA Low Noise LDO negative regulator, fixed output -5V, TSOT-23-5
 K REGULATOR POSITIVE POWER LDO fixed
@@ -4702,6 +4744,96 @@ $CMP TPS71550__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 5V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
+$ENDCMP
+#
+$CMP TPS72201
+D Low input voltage 50mA LDO variable output voltage, SOT-23-5
+K linear low dropout Regulator adjustable
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72215
+D Low input voltage 50mA LDO, 1.5V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72216
+D Low input voltage 50mA LDO, 1.6V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72218
+D Low input voltage 50mA LDO, 1.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS73601DBV
+D Cap free NMOS 400mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Cap free Adjustable LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS736125DBV
+D Cap free NMOS 400mA Low Drop 1.25V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73615DBV
+D Cap free NMOS 400mA Low Drop 1.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73616DBV
+D Cap free NMOS 400mA Low Drop 1.6V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73618DBV
+D Cap free NMOS 400mA Low Drop 1.8V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73619DBV
+D Cap free NMOS 400mA Low Drop 1.9V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73625DBV
+D Cap free NMOS 400mA Low Drop 2.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73630DBV
+D Cap free NMOS 400mA Low Drop 3.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73632DBV
+D Cap free NMOS 400mA Low Drop 3.2V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73633DBV
+D Cap free NMOS 400mA Low Drop 3.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73643DBV
+D Cap free NMOS 400mA Low Drop 4.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
 $ENDCMP
 #
 $CMP TPS74401_VQFN
