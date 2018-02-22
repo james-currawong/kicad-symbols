@@ -170,6 +170,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +5VISO
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5VL
 D power-flag symbol
 K Power Flag Symbol
